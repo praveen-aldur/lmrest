@@ -37,7 +37,7 @@ public class BaseClass {
  String OtherParameters=null;
  public static String Execute=null;
  
-  
+ /* This is to identify feature * / 
  @BeforeSuite
  public static void SetUpSuite(){ 
   /*Action to be performed before running the suite, ex: DataSetup*/
